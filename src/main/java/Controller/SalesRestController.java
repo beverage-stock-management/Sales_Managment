@@ -1,5 +1,7 @@
-package com.beverageStock.sales;
+package Controller;
 
+import com.beverageStock.sales.Sales;
+import com.beverageStock.sales.SalesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
