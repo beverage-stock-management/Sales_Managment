@@ -1,4 +1,4 @@
-package com.beverageStock.sales;
+package Model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
