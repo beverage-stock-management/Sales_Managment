@@ -1,4 +1,4 @@
-package com.beverageStock.sales;
+package Model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -15,5 +15,6 @@ public class Sales {
     private String productName;
     private int productQty;
     private String address;
+    
 
 }

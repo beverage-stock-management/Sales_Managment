@@ -1,5 +1,7 @@
-package com.beverageStock.sales;
+package Controller;
 
+import Model.Return;
+import com.beverageStock.sales.ReturnRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

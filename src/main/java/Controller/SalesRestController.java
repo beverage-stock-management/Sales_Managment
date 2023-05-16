@@ -1,5 +1,7 @@
-package com.beverageStock.sales;
+package Controller;
 
+import Model.Sales;
+import com.beverageStock.sales.SalesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -9,6 +11,7 @@ import java.util.List;
 public class SalesRestController {
     @Autowired
     SalesRepository salesRepository;
+
 
     @GetMapping(value = "/sales") //read all
     public List<Sales> getAllSales(){
