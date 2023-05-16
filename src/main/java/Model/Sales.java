@@ -15,5 +15,6 @@ public class Sales {
     private String productName;
     private int productQty;
     private String address;
+    
 
 }

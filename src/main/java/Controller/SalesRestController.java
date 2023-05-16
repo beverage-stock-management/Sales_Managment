@@ -12,6 +12,7 @@ public class SalesRestController {
     @Autowired
     SalesRepository salesRepository;
 
+
     @GetMapping(value = "/sales") //read all
     public List<Sales> getAllSales(){
         return salesRepository.findAll();
